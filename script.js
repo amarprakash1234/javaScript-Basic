@@ -6,4 +6,33 @@ function min(...args) {
     return min;
 }
 
-console.log(min(1, 2, 3, 4, 5, 6, 7));
+
+let arr = [-2, 4, 2, -5, 8, 6, -9];
+
+let [x, y, ...others] = arr;
+
+let obj = {
+    name: "Amar Prkash",
+    age: 21,
+    city: "Bhopal",
+}
+
+let {name: naam, age, isMarried = false} = obj;
+
+
+let obj2 = {
+    func: function() {
+        console.log(this);  
+    },
+    func2: () => {
+        console.log(this);
+    }
+}
+
+let brr = [2, 4, 6];
+
+let isAllEven = brr.every(ele => ele%2==0);
+
+
+
+
