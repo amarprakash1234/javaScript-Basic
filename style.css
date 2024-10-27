@@ -1,10 +1,15 @@
-.box {
-    width: 300px;
-    height: 260px;
-
+#box {
+    width: 360px;
+    height: 200px;
+    border: 2px solid black;
+    
+}
+button {
+    transform: scale(1.5);
 }
 
-.yellow {
-    background-color: black;
-    color: yellow;
+.box {
+    display: flex;
+    justify-content: center;
+
 }
