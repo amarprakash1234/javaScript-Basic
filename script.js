@@ -153,6 +153,26 @@
 // })
 
 
+// Async-Await
+
+// let btn = document.querySelector("button");
+
+// function changeColor(color, delay, nextColorChange) {
+//     setTimeout(() => {
+//         btn.style.backgroundColor = color;
+//         if(nextColorChange) nextColorChange();
+//     }, delay);
+// }
+
+// changeColor("red", 1000, () => {
+//     changeColor("green", 1000, () => {
+//         changeColor("blue", 1000);
+//     });
+// });
+
+
+
+
 
 
 
