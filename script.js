@@ -152,9 +152,6 @@
 //     console.log(err);
 // })
 
-
-// Async-Await
-
 // let btn = document.querySelector("button");
 
 // function changeColor(color, delay, nextColorChange) {
@@ -169,6 +166,35 @@
 //         changeColor("blue", 1000);
 //     });
 // });
+
+// function changeColor(color, delay) {
+//     return new Promise((resolve, reject) => {
+//         setTimeout(() => {
+//             btn.style.backgroundColor = color;
+//             resolve("Color Changed!");
+//         }, delay);
+//     });
+// }
+
+// changeColor("red", 1000)
+//     .then((res) => {
+//         console.log(res);
+//         console.log("Color changed to Red");
+//         return changeColor("green", 1000);
+//     })
+//     .then((res) => {
+//         console.log(res);
+//         console.log("Color changed to Green!");
+//         return changeColor("blue", 1000);
+//     })
+//     .then((res) => {
+//         console.log(res);
+//         console.log("color changed to Blue");
+//     })
+    
+
+
+
 
 
 
