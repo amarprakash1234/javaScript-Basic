@@ -194,6 +194,49 @@
     
 
 
+// let arr = [3, 6, 8, 2, 1, 7];
+
+// let obj = {
+//     name: "Amar",
+//     age: 21,
+//     marks: 75,
+//     username: "@amarprakash",
+
+// }
+
+// arr.forEach((ele, i) => {
+//     console.log(ele, i);
+// })
+
+// for(key in obj) {
+//     console.log(key, "->", obj[key]);
+// }
+// function factoryFunction(req) {
+//     if(req === "even") {
+//         return function(n) {
+//             if(n%2 == 0) return true;
+//             else return false;
+//         }
+//     } else {
+//         return function(n) {
+//             if(n%2 != 0) return true;
+//             else return false;
+//         }
+//     }
+// }
+
+// let even = factoryFunction("even");
+// console.log(even(5));
+
+// let str = "amarprakash";
+
+// console.log(str.slice(20));
+
+// let arr = [1,2, 3, 4];
+
+// console.log(arr.slice(6));
+
+// console.log(typeof arr);
 
 
 
